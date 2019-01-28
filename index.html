@@ -1,23 +1,25 @@
 <html>
  <head>
+   <metacharset="uft-8">
    <title>Invie</title>
      <style media="screen">
       body {
         margin: 0;
-
       }
       img {
         max-width: 100%;
         vertical-align: top;
-        /* display: none; */
       }
       img#responsive {
           display: none;
-        }
+        
       }
-      @media screen and (max-width: 968px) {
+      @media screen and (max-width: 768px) {
         img#responsive {
           display: block;
+        }
+        img{
+          display: none;
         }
       }
     </style>
